@@ -2,7 +2,7 @@
     <val_0>0.000000</val_0>
 </nearClipping>
 <farClipping>
-    <val_0>108.888885</val_0>
+    <val_0>150.000000</val_0>
 </farClipping>
 <leftCut>
     <val_0>0.000000</val_0>
@@ -20,7 +20,7 @@
     <val_0>0.000000</val_0>
 </farThreshold>
 <scale>
-    <val_0>6.850000</val_0>
+    <val_0>7.100000</val_0>
 </scale>
 <contourThresh>
     <val_0>255.000000</val_0>
@@ -29,7 +29,7 @@
     <val_0>1.000000</val_0>
 </stepSize>
 <pointSize>
-    <val_0>14.616666</val_0>
+    <val_0>7.927778</val_0>
 </pointSize>
 <animation>
     <val_0>0.000000</val_0>
@@ -47,22 +47,22 @@
     <val_0>0.000000</val_0>
 </exportPoly>
 <rotateX>
-    <val_0>3.000004</val_0>
+    <val_0>4.500000</val_0>
 </rotateX>
 <rotateY>
-    <val_0>-64.000000</val_0>
+    <val_0>-360.000000</val_0>
 </rotateY>
 <centerPoint>
-    <val_0>-11.111145</val_0>
+    <val_0>200.000000</val_0>
 </centerPoint>
 <zoom>
-    <val_0>83.333313</val_0>
+    <val_0>77.777832</val_0>
 </zoom>
 <camAngle>
-    <val_0>17.399998</val_0>
+    <val_0>20.000000</val_0>
 </camAngle>
 <xPosition>
-    <val_0>368.000031</val_0>
+    <val_0>280.000000</val_0>
 </xPosition>
 <yPosition>
     <val_0>-30.000000</val_0>
@@ -131,7 +131,7 @@
     <val_0>0.000000</val_0>
 </blobs>
 <vertexStep>
-    <val_0>10.000000</val_0>
+    <val_0>9.622222</val_0>
 </vertexStep>
 <lightX>
     <val_0>1.555555</val_0>
@@ -140,7 +140,7 @@
     <val_0>1.555555</val_0>
 </lightY>
 <lightZ>
-    <val_0>-5.000000</val_0>
+    <val_0>21.176163</val_0>
 </lightZ>
 <lightIntensity>
     <val_0>0.000000</val_0>
@@ -155,7 +155,7 @@
     <val_0>1.000000</val_0>
 </lightBlue>
 <shininess>
-    <val_0>21.666666</val_0>
+    <val_0>70.555557</val_0>
 </shininess>
 <ambientRed>
     <val_0>1.000000</val_0>
@@ -170,13 +170,13 @@
     <val_0>0.538889</val_0>
 </ambientAmount>
 <diffuseRed>
-    <val_0>0.294444</val_0>
+    <val_0>1.000000</val_0>
 </diffuseRed>
 <diffuseGreen>
-    <val_0>0.316667</val_0>
+    <val_0>1.000000</val_0>
 </diffuseGreen>
 <diffuseBlue>
-    <val_0>0.305556</val_0>
+    <val_0>1.000000</val_0>
 </diffuseBlue>
 <diffuseAmount>
     <val_0>0.372222</val_0>
@@ -299,13 +299,13 @@
 <val_1>1.000000</val_1>
 </2dslider>
 <specularRed>
-    <val_0>0.394444</val_0>
+    <val_0>0.200000</val_0>
 </specularRed>
 <specularGreen>
-    <val_0>0.394444</val_0>
+    <val_0>0.166667</val_0>
 </specularGreen>
 <specularBlue>
-    <val_0>0.377778</val_0>
+    <val_0>0.177778</val_0>
 </specularBlue>
 <soundLevel>
     <val_0>100.000000</val_0>
@@ -320,20 +320,20 @@
     <val_0>0.000000</val_0>
 </random>
 <soundControl>
-    <val_0>5.000000</val_0>
-    <val_1>0.000000</val_1>
+    <val_0>14.600000</val_0>
+    <val_1>1.000000</val_1>
 </soundControl>
 <cameraControl>
-    <val_0>-4.500000</val_0>
-    <val_1>-12.599998</val_1>
+    <val_0>25.199997</val_0>
+    <val_1>10.799999</val_1>
 </cameraControl>
 <spaceSize>
-    <val_0>14.395000</val_0>
-    <val_1>11.730000</val_1>
+    <val_0>9.550000</val_0>
+    <val_1>10.860000</val_1>
 </spaceSize>
 <lightPosition>
-    <val_0>-4.800000</val_0>
-    <val_1>-11.200000</val_1>
+    <val_0>11.894655</val_0>
+    <val_1>6.696692</val_1>
 </lightPosition>
 <quads>
     <val_0>0.000000</val_0>
@@ -342,7 +342,7 @@
     <val_0>1.000000</val_0>
 </triangles>
 <z>
-    <val_0>1.000000</val_0>
+    <val_0>0.000000</val_0>
 </z>
 <x>
     <val_0>0.000000</val_0>
@@ -374,3 +374,36 @@
 <cRotation>
     <val_0>0.000000</val_0>
 </cRotation>
+<wiiControl>
+    <val_0>1.000000</val_0>
+</wiiControl>
+<glMatOn>
+    <val_0>1.000000</val_0>
+</glMatOn>
+<glLightingOn>
+    <val_0>1.000000</val_0>
+</glLightingOn>
+<exportDancePoly>
+    <val_0>0.000000</val_0>
+</exportDancePoly>
+<fft>
+    <val_0>0.000000</val_0>
+</fft>
+<glBlending1>
+    <val_0>1.083333</val_0>
+</glBlending1>
+<glBlending2>
+    <val_0>0.277778</val_0>
+</glBlending2>
+<zoomControl>
+    <val_0>0.000000</val_0>
+</zoomControl>
+<controlBlend>
+    <val_0>0.000000</val_0>
+</controlBlend>
+<backgroundAlpha>
+    <val_0>255.000000</val_0>
+</backgroundAlpha>
+<visualizeBlobs>
+    <val_0>0.000000</val_0>
+</visualizeBlobs>

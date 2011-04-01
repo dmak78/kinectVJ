@@ -1,0 +1,4 @@
+03/28/2011: updated with some code comments and some house cleaning. As of now this still has some extraneous code, and the control panel layout needs to be better situated. If you have a wiiRemote I have it set up to control various parameters with the visuals. Audio input works pretty good, smoothed out the incoming data so the visuals are slightly more responsive. 
+
+Also, I plan on doing another update in the next few days that will experiment with the use of shaders.
+

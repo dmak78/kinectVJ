@@ -31,7 +31,7 @@ void DepthVisualizerInput::setup(ofxControlPanel& panel){
 		// this is setting the raw data conversion range
 		// we assume that 100 to 300 CM (1 - 3 meters) is good for tracking a person in space
 		rawNearThreshold = 0;
-		rawFarThreshold = 350;
+		rawFarThreshold = 1000;
 		kinect.getCalibration().setClippingInCentimeters(rawNearThreshold, rawFarThreshold);
 		
 		
@@ -132,7 +132,7 @@ void DepthVisualizerInput::thresholdDepthImage() {
 void DepthVisualizerInput::buildPointCloud() {	
 	
 	//depthImage.absDiff(animationImage);
-	unsigned char* depthPixels = depthImage.getPixels();
+	unsigned char* depthPixels = depthImage.getPixels();	
 	unsigned char* contourPixels = contourImage.getPixels();
 	unsigned char* colorPixels = colorImage.getPixels();
 	
@@ -147,6 +147,8 @@ void DepthVisualizerInput::buildPointCloud() {
 				int i = y * camWidth + x;
 				if(depthPixels[i] != 0) {
 					ofxVec3f cur = kinect.getWorldCoordinateFor(x, y);
+					
+					
 					ofColor color = kinect.getCalibratedColorAt(x ,y);
 					cur *= 100; // convert from meters to cm
 					cur.z += offset;
